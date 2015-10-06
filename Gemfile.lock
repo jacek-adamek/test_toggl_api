@@ -1,0 +1,25 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    awesome_print (1.6.1)
+    dotenv (2.0.2)
+    faraday (0.9.1)
+      multipart-post (>= 1.2, < 3)
+    logger (1.2.8)
+    multipart-post (2.0.0)
+    oj (2.12.14)
+    togglv8 (0.2.0)
+      faraday
+      logger
+      oj
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  awesome_print
+  dotenv
+  togglv8
+
+BUNDLED WITH
+   1.10.6
